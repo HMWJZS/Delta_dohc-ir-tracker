@@ -1,0 +1,9 @@
+{
+  "bundle": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_toolkit_dev19_4/dist/20261023_DOHC_dev19_4_\u8131\u79bbGit\u91cd\u5efa",
+  "wheel": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_toolkit_dev19_4/dist/20261023_DOHC_dev19_4_\u8131\u79bbGit\u91cd\u5efa/wheelhouse/dohc_ir_tracker-0.0.2-py3-none-linux_aarch64.whl",
+  "archive": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_toolkit_dev19_4/dist/20261023_DOHC_dev19_4_\u8131\u79bbGit\u91cd\u5efa.tar.gz",
+  "sha256": "21fef4d33ca523b980bd080ed0fb65fcb4ce6097c057e9d44bcdbff730166ce0",
+  "source_dirty": false,
+  "offline_dependencies": "complete",
+  "hardware_validation": "pending"
+}

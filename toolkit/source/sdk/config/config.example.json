@@ -1,0 +1,7 @@
+{
+  "calibration": "calibration-v1-940nm.json",
+  "patterns": "patterns-p01-p05.json",
+  "optical_profile_confirmed": false,
+  "output_dir": "../runs",
+  "diagnostics": false
+}

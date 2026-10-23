@@ -1,0 +1,13 @@
+{
+  "schema": "dohc.ir.codec-build.v1",
+  "abi": 1,
+  "library_sha256": "792331f0887458cccd87da737d0d276d7c8c47a5897393a8feed196979c44210",
+  "source_sha256": {
+    "CMakeLists.txt": "0776c83996c340dbdef8be25160e46540afdd79eaf094bf4214d37e39bef515f",
+    "codec.cpp": "c979b059258c49665f9f224a20202e316693c441a15c7164772336edc9846ad1",
+    "codec.h": "786d1affddbc0b66c933c0b6199ec8fda50217238b021de54cf9c790b5a49887",
+    "selftest.cpp": "204ea65bd7b658fc74f2058e3bf5b502dd710911a7070c305656f911a56b24e2"
+  },
+  "build_info": "commit=c11e89f894a5aac076849fdbc4765ecea8201d71,mpp=1.3.9,rga=2.1.0",
+  "toolchain_sha256": null
+}

@@ -1,0 +1,8 @@
+*.whl binary
+*.so binary
+*.deb binary
+*.gz binary
+*.jpg binary
+*.png binary
+# Frozen GBK/CRLF LED table; preserve bytes for the algorithm hash.
+toolkit/source/dohc/infrared/led_coordinates.csv binary

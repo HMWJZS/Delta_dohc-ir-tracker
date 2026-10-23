@@ -1,0 +1,471 @@
+{
+  "schema": "dohc.ir.repository-import.v1",
+  "date": "2026-10-23",
+  "repository": "https://github.com/HMWJZS/Delta_dohc-ir-tracker",
+  "package_version": "0.0.2",
+  "algorithm_version": "2.0.0-dev.19.4",
+  "original_package_source_commit": "aa28bd5773978afd9b804fad5b39b2440c170cd3",
+  "original_documentation_commit": "67e8f57",
+  "upstream_algorithm_commit": "75b097ee1fcf2371f154d5f30f5609704462e6e4",
+  "imported_bundle_files": 90,
+  "hash_checked_files": 89,
+  "files": [
+    {
+      "path": "toolkit/CHANGELOG.md",
+      "sha256": "f36fa72c72031f078436b84c628b79adc9bbcb477ba26ee6579c66cc29829a1b",
+      "bytes": 751
+    },
+    {
+      "path": "toolkit/README.md",
+      "sha256": "1558aba4d5ed055d83b5dcbc53b2ca5bb6052e4e1c87e706ec98f9c0ec9da96d",
+      "bytes": 10291
+    },
+    {
+      "path": "toolkit/THIRD_PARTY.md",
+      "sha256": "caae09f957cb4c1e93920e44d152f3e929754baed6f9372d548b58c39c8b4ed8",
+      "bytes": 796
+    },
+    {
+      "path": "toolkit/build-manifest.json",
+      "sha256": "1045a3cb0b42602c2e103c429e7ee72a4128912bef3f3fcd558e7252b5948cf2",
+      "bytes": 3706
+    },
+    {
+      "path": "toolkit/config/calibration-v1-940nm.json",
+      "sha256": "6e8034ca0cbc8897312dcbff5fc67a083cbee2f883388614652d13fcb65ff380",
+      "bytes": 11438
+    },
+    {
+      "path": "toolkit/config/config.example.json",
+      "sha256": "aa2ed32df479f30fde4f529f9aa0dc00b9c6837db27fc2eef01a7368ebcb1a92",
+      "bytes": 177
+    },
+    {
+      "path": "toolkit/config/patterns-p01-p05.json",
+      "sha256": "6d910749fbe909dd7c22f5186e4ed64bb2625a28cae19ea5aa2fc81af14eecaa",
+      "bytes": 4923
+    },
+    {
+      "path": "toolkit/examples/live_jpeg.py",
+      "sha256": "8030fc75512eadb5a469b0222bc4e4eef380b3bd446310b34c97c18862287fae",
+      "bytes": 897
+    },
+    {
+      "path": "toolkit/examples/pose_matrix.py",
+      "sha256": "30084c4893f1fec6411d108505422198aea3f3c041984bb4dfe9732bc7340323",
+      "bytes": 296
+    },
+    {
+      "path": "toolkit/install.sh",
+      "sha256": "de922a3cea7faa75fee33e6834638c2479efc5597a30900674ab893db820117a",
+      "bytes": 881
+    },
+    {
+      "path": "toolkit/requirements.lock",
+      "sha256": "9ee2360653ccbee98bad850338f4d394b16294fdb01d59a8fcb3d078453fe025",
+      "bytes": 1437
+    },
+    {
+      "path": "toolkit/sample/frame.jpg",
+      "sha256": "b0f86ef7df865bbd67667b8604dfb95834493f3bf0630ee9a970ce5aac1a0279",
+      "bytes": 584253
+    },
+    {
+      "path": "toolkit/sample/manifest.json",
+      "sha256": "8b50cafee78b62a74242ab0626961786ade0cd0ebab35114f4604be4662fd411",
+      "bytes": 12638
+    },
+    {
+      "path": "toolkit/source/SOURCE.json",
+      "sha256": "1045a3cb0b42602c2e103c429e7ee72a4128912bef3f3fcd558e7252b5948cf2",
+      "bytes": 3706
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/__init__.py",
+      "sha256": "a1236b3ac6d2ee9e2d82ef769fd177d1054286f80445fb9bd529aaccebf783b6",
+      "bytes": 57
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/assignment.py",
+      "sha256": "eb7b4fc3e5e511dbd15924c02b7939cd37e32724f997c365efaa688827571267",
+      "bytes": 4278
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/benchmark.py",
+      "sha256": "f5214c30000a810f7a21b62b07994ccf21b44564d4ca39fde69f6eea585cbd9b",
+      "bytes": 14767
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/config.py",
+      "sha256": "fd6677115f0af3dfca58b172f0b0157b17a5f8666ca27989700a261293b009fc",
+      "bytes": 1901
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/detector.py",
+      "sha256": "475fc9a7d58bb00667d78c4c962711715b42202de122b459edc2e3b900c9dc50",
+      "bytes": 23253
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/gen2.py",
+      "sha256": "e7859dc5819652029b9341e7eff594ccb695115629ec6ed532c100c8ee80b9c8",
+      "bytes": 52963
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/geometry.py",
+      "sha256": "88340b5daa0a5bb296d960f16ecf8c1bc5feea178af20957fce04dcdd8085e9f",
+      "bytes": 16833
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/image_source.py",
+      "sha256": "71b5b7a0d35301e4889b7cd0e4ba991fe4449741061dd2678170bd4465df90fe",
+      "bytes": 612
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/jpeg_decoder.py",
+      "sha256": "76286f9e50a0df7a9a2bdd81aebb34a20fefac366a4e3713e806d21665858b46",
+      "bytes": 8837
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/led_coordinates.csv",
+      "sha256": "53130b8fd81469c8b45f7847bfc5e6a750a67dac370fb43151f7f9dae3d095c9",
+      "bytes": 2433
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/methods.py",
+      "sha256": "f001881276cafbdc5b7d46003bd8d446fc21c077c14152d2be82e31e36cdebf2",
+      "bytes": 25031
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/npu_tiles.py",
+      "sha256": "500e4f3afb52c11628e6797d44f87a19bc6ad70e2419847fbe527d48a1260947",
+      "bytes": 1591
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/opencl_extract.py",
+      "sha256": "9566505c99e42571f0c50798ad4827e1d2e588ec7cd2e322b09f60a176b2d44e",
+      "bytes": 24310
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/pose_resolution.py",
+      "sha256": "2c648308cfcbdc9bcb907a76e076196a07ec6b9511a89a223e12f09669a42d0d",
+      "bytes": 26478
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/profiling.py",
+      "sha256": "b511140a69ea0b082c91a0b6991f5d77560b965a511291eaf46a207f56639391",
+      "bytes": 2344
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/provenance.json",
+      "sha256": "83c84119a5453b630be28a938866221cabcfdae5bbe14adfaf99f8f4974196fa",
+      "bytes": 893
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/reference_940nm_intrinsics.json",
+      "sha256": "6e8034ca0cbc8897312dcbff5fc67a083cbee2f883388614652d13fcb65ff380",
+      "bytes": 11438
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/resources.py",
+      "sha256": "3b18d22f714710ca7f6d29175232017cf0c61faa4965d9d9942fdd879d802209",
+      "bytes": 239
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/roi_association.py",
+      "sha256": "4d956b0bce7cf9b7905771f4cbc34c685ec4c6c5ed4ef5f87d5a90ed66f5aba7",
+      "bytes": 2255
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/roi_motion.py",
+      "sha256": "b87cc656c78e92458886f60653c0f9b2ab58d55d20593333f4ffd93ec4185a06",
+      "bytes": 7613
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/runtime.py",
+      "sha256": "1161c2cc57b34047210a1fbb790f6cc5f490a39a362ee22363d75409997d9db8",
+      "bytes": 47597
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/selftest.py",
+      "sha256": "ba113eb31a01fab768af14142a7dd3878e96019bf48f21b4421fc539af7be727",
+      "bytes": 4529
+    },
+    {
+      "path": "toolkit/source/dohc/infrared/version.py",
+      "sha256": "f32aacad5d20f046250465744b177d29c53ba73f63b2bfa61b18c9359b4843bc",
+      "bytes": 3223
+    },
+    {
+      "path": "toolkit/source/native/infrared_assignment/CMakeLists.txt",
+      "sha256": "ead789b1202caa5e3685dfafd46fe1dd7ec1065a3d23f682056d5bff063b3317",
+      "bytes": 908
+    },
+    {
+      "path": "toolkit/source/native/infrared_assignment/assignment.cpp",
+      "sha256": "6bfcc5e3ab25ffc45ac14ff352a311117431c612e7a6d61bdcb8f1138498024a",
+      "bytes": 1410
+    },
+    {
+      "path": "toolkit/source/native/infrared_assignment/assignment.h",
+      "sha256": "58f8619168190892f61b76b5daf0979aac49c3ad1607e184ee43a654b65eef4c",
+      "bytes": 212
+    },
+    {
+      "path": "toolkit/source/native/infrared_assignment/build-info.json",
+      "sha256": "6dd5343a33b0c8b8e1bcab96c0c3738e6024a578dc5696b1aef7b5409c3e5118",
+      "bytes": 650
+    },
+    {
+      "path": "toolkit/source/native/infrared_assignment/libdohc_ir_assignment.so",
+      "sha256": "1a81d27e68583e41a0191e61f539e574333f9c608db37c0b611de6ef196c66f5",
+      "bytes": 8232
+    },
+    {
+      "path": "toolkit/source/native/infrared_assignment/selftest.cpp",
+      "sha256": "a61b0319bae11fa358b1ba7a244b03e8b391053f0759761c5afa3c5629c643ac",
+      "bytes": 1136
+    },
+    {
+      "path": "toolkit/source/native/infrared_codec/CMakeLists.txt",
+      "sha256": "0776c83996c340dbdef8be25160e46540afdd79eaf094bf4214d37e39bef515f",
+      "bytes": 1849
+    },
+    {
+      "path": "toolkit/source/native/infrared_codec/build-info.json",
+      "sha256": "7afa12788d8aa4bb02e0250b440c473d7ac0809c6edecb591edd1a90ae4e8b7b",
+      "bytes": 627
+    },
+    {
+      "path": "toolkit/source/native/infrared_codec/codec.cpp",
+      "sha256": "c979b059258c49665f9f224a20202e316693c441a15c7164772336edc9846ad1",
+      "bytes": 13418
+    },
+    {
+      "path": "toolkit/source/native/infrared_codec/codec.h",
+      "sha256": "786d1affddbc0b66c933c0b6199ec8fda50217238b021de54cf9c790b5a49887",
+      "bytes": 1093
+    },
+    {
+      "path": "toolkit/source/native/infrared_codec/libdohc_ir_codec.so",
+      "sha256": "792331f0887458cccd87da737d0d276d7c8c47a5897393a8feed196979c44210",
+      "bytes": 38448
+    },
+    {
+      "path": "toolkit/source/native/infrared_codec/selftest.cpp",
+      "sha256": "204ea65bd7b658fc74f2058e3bf5b502dd710911a7070c305656f911a56b24e2",
+      "bytes": 1278
+    },
+    {
+      "path": "toolkit/source/sdk/CHANGELOG.md",
+      "sha256": "f36fa72c72031f078436b84c628b79adc9bbcb477ba26ee6579c66cc29829a1b",
+      "bytes": 751
+    },
+    {
+      "path": "toolkit/source/sdk/README.md",
+      "sha256": "1558aba4d5ed055d83b5dcbc53b2ca5bb6052e4e1c87e706ec98f9c0ec9da96d",
+      "bytes": 10291
+    },
+    {
+      "path": "toolkit/source/sdk/THIRD_PARTY.md",
+      "sha256": "caae09f957cb4c1e93920e44d152f3e929754baed6f9372d548b58c39c8b4ed8",
+      "bytes": 796
+    },
+    {
+      "path": "toolkit/source/sdk/build_toolkit.py",
+      "sha256": "e44f4c75bcdbad07aa5502347d45d5a76d08c5fe2b6e791fe7c31dbd0e1225ee",
+      "bytes": 7358
+    },
+    {
+      "path": "toolkit/source/sdk/check_equivalence.py",
+      "sha256": "b9fc720eb9e7c33a9a90da864a1907e7a5dbae8e05bb38d15801a8723c8d5ad6",
+      "bytes": 6602
+    },
+    {
+      "path": "toolkit/source/sdk/config/calibration-v1-940nm.json",
+      "sha256": "6e8034ca0cbc8897312dcbff5fc67a083cbee2f883388614652d13fcb65ff380",
+      "bytes": 11438
+    },
+    {
+      "path": "toolkit/source/sdk/config/config.example.json",
+      "sha256": "aa2ed32df479f30fde4f529f9aa0dc00b9c6837db27fc2eef01a7368ebcb1a92",
+      "bytes": 177
+    },
+    {
+      "path": "toolkit/source/sdk/config/patterns-p01-p05.json",
+      "sha256": "6d910749fbe909dd7c22f5186e4ed64bb2625a28cae19ea5aa2fc81af14eecaa",
+      "bytes": 4923
+    },
+    {
+      "path": "toolkit/source/sdk/examples/live_jpeg.py",
+      "sha256": "8030fc75512eadb5a469b0222bc4e4eef380b3bd446310b34c97c18862287fae",
+      "bytes": 897
+    },
+    {
+      "path": "toolkit/source/sdk/examples/pose_matrix.py",
+      "sha256": "30084c4893f1fec6411d108505422198aea3f3c041984bb4dfe9732bc7340323",
+      "bytes": 296
+    },
+    {
+      "path": "toolkit/source/sdk/install.sh",
+      "sha256": "de922a3cea7faa75fee33e6834638c2479efc5597a30900674ab893db820117a",
+      "bytes": 881
+    },
+    {
+      "path": "toolkit/source/sdk/prepare_dependencies.py",
+      "sha256": "f75c40fca75d16d04544c81a244a80a8d4c6f15035f36bec41a2ab076cb1c1f2",
+      "bytes": 2723
+    },
+    {
+      "path": "toolkit/source/sdk/requirements-arm64.in",
+      "sha256": "36623d62fdfe53180a9fca5e834ca99793218f21d16ab3eef21f2c5abe61f334",
+      "bytes": 222
+    },
+    {
+      "path": "toolkit/source/sdk/sample/frame.jpg",
+      "sha256": "b0f86ef7df865bbd67667b8604dfb95834493f3bf0630ee9a970ce5aac1a0279",
+      "bytes": 584253
+    },
+    {
+      "path": "toolkit/source/sdk/sample/manifest.json",
+      "sha256": "8b50cafee78b62a74242ab0626961786ade0cd0ebab35114f4604be4662fd411",
+      "bytes": 12638
+    },
+    {
+      "path": "toolkit/source/sdk/src/dohc_ir_tracker/__init__.py",
+      "sha256": "56fa70bb8aa7e5fabf8bd6af4c7491547e1a1ff62ae6e97ff1fe06bb2cf78730",
+      "bytes": 151
+    },
+    {
+      "path": "toolkit/source/sdk/src/dohc_ir_tracker/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48
+    },
+    {
+      "path": "toolkit/source/sdk/src/dohc_ir_tracker/cli.py",
+      "sha256": "428532d767ef247022d71e38acb5f10254c188d79075eecdb0ceaea38660cd6b",
+      "bytes": 11505
+    },
+    {
+      "path": "toolkit/source/sdk/src/dohc_ir_tracker/report.py",
+      "sha256": "fe9156d818b6a45192a828afe612b4a88c36de4a07d1b44c869274ad3bfbb778",
+      "bytes": 11062
+    },
+    {
+      "path": "toolkit/source/sdk/src/dohc_ir_tracker/tracker.py",
+      "sha256": "7b214b83a068826ffc22b907f3a8b622b0e97ed530ded010b29762e357262492",
+      "bytes": 8527
+    },
+    {
+      "path": "toolkit/source/sdk/tests/test_installed.py",
+      "sha256": "0093d9165dedbec190b253bb98589f59068a330d34f39745c038a4c551fb5deb",
+      "bytes": 3152
+    },
+    {
+      "path": "toolkit/source/sdk/tests/test_sdk.py",
+      "sha256": "7a874839fc12acf07c464d2ce33b9a95b3f86d362e56b3a98dd459055cfd7a92",
+      "bytes": 8975
+    },
+    {
+      "path": "toolkit/source/sdk/verify_bundle.py",
+      "sha256": "c6406b7cdbeae49492dbc8a940007bf10f9dcd24fb80fc145e6f3492b39c3b22",
+      "bytes": 900
+    },
+    {
+      "path": "toolkit/source/sdk/wheel_tools.py",
+      "sha256": "146f5790496f7e82be3aa07d0e979de5f4ad2f0e295fe347c7196ec4f8eda817",
+      "bytes": 4242
+    },
+    {
+      "path": "toolkit/third-party/python3-pyopencl_2019.1.1-1build1_arm64.deb",
+      "sha256": "66e5d560593dc8c3d9b242b0c10d3859cd3f237605171a275564462e7a3b7974",
+      "bytes": 376308
+    },
+    {
+      "path": "toolkit/verify_bundle.py",
+      "sha256": "c6406b7cdbeae49492dbc8a940007bf10f9dcd24fb80fc145e6f3492b39c3b22",
+      "bytes": 900
+    },
+    {
+      "path": "toolkit/wheelhouse/appdirs-1.4.4-py2.py3-none-any.whl",
+      "sha256": "a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128",
+      "bytes": 9566
+    },
+    {
+      "path": "toolkit/wheelhouse/decorator-5.1.1-py3-none-any.whl",
+      "sha256": "b8c3f85900b9dc423225913c5aace94729fe1fa9763b38939a95226f02d37186",
+      "bytes": 9073
+    },
+    {
+      "path": "toolkit/wheelhouse/dohc_ir_tracker-0.0.2-py3-none-linux_aarch64.whl",
+      "sha256": "50830d5909e5295bce234ea133c96b129a697adbe569218bfb7660b568d5d8d1",
+      "bytes": 122962
+    },
+    {
+      "path": "toolkit/wheelhouse/imageio_ffmpeg-0.5.1-py3-none-manylinux2014_aarch64.whl",
+      "sha256": "7fa9132a291d5eb28c44553550deb40cbdab831f2a614e55360301a6582eb205",
+      "bytes": 22880461
+    },
+    {
+      "path": "toolkit/wheelhouse/numpy-1.23.5-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+      "sha256": "92c8c1e89a1f5028a4c6d9e3ccbe311b6ba53694811269b992c0b224269e2398",
+      "bytes": 13987596
+    },
+    {
+      "path": "toolkit/wheelhouse/opencv_python_headless-4.13.0.92-cp37-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl",
+      "sha256": "5c8cfc8e87ed452b5cecb9419473ee5560a989859fe1d10d1ce11ae87b09a2cb",
+      "bytes": 33703709
+    },
+    {
+      "path": "toolkit/wheelhouse/pip-25.0.1-py3-none-any.whl",
+      "sha256": "c46efd13b6aa8279f33f2864459c8ce587ea6a1a59ee20de055868d8f7688f7f",
+      "bytes": 1841526
+    },
+    {
+      "path": "toolkit/wheelhouse/platformdirs-3.11.0-py3-none-any.whl",
+      "sha256": "e9d171d00af68be50e9202731309c4e658fd8bc76f55c11c7dd760d023bda68e",
+      "bytes": 17579
+    },
+    {
+      "path": "toolkit/wheelhouse/pyopencl-2019.1.1-cp38-cp38-linux_aarch64.whl",
+      "sha256": "665f90797ebac09c747469da813592dfcae139ab2c977e838de89f7d64f302a1",
+      "bytes": 535016
+    },
+    {
+      "path": "toolkit/wheelhouse/pytools-2023.1-py2.py3-none-any.whl",
+      "sha256": "7818a7ca089e51dbd5405681522bb404de21eca43ee69b6348a8095900909ef2",
+      "bytes": 70440
+    },
+    {
+      "path": "toolkit/wheelhouse/scipy-1.10.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
+      "sha256": "bce5869c8d68cf383ce240e44c1d9ae7c06078a9396df68ce88a1230f93a30c1",
+      "bytes": 31024657
+    },
+    {
+      "path": "toolkit/wheelhouse/setuptools-68.2.2-py3-none-any.whl",
+      "sha256": "b454a35605876da60632df1a60f736524eb73cc47bbc9f3f1ef1b644de74fd2a",
+      "bytes": 807864
+    },
+    {
+      "path": "toolkit/wheelhouse/six-1.16.0-py2.py3-none-any.whl",
+      "sha256": "8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254",
+      "bytes": 11053
+    },
+    {
+      "path": "toolkit/wheelhouse/typing_extensions-4.13.2-py3-none-any.whl",
+      "sha256": "a439e7c04b49fec3e5d3e2beaa21755cadbbdc391694e28ccdd36ca4a1408f8c",
+      "bytes": 45806
+    }
+  ],
+  "device_contacted": false,
+  "hardware_acceptance": "pending",
+  "repository_checks": {
+    "imported_files_verified": 89,
+    "source_rebuild_wheel_identical": true,
+    "wheel_sha256": "50830d5909e5295bce234ea133c96b129a697adbe569218bfb7660b568d5d8d1",
+    "relocated_installed_test": "1 passed; host CPU oracle only, no ARM64 dependency/hardware execution",
+    "markdown_local_links_checked": 25,
+    "max_file_under_100MiB": true,
+    "private_key_and_github_token_pattern_scan": "none found",
+    "database_changes": false
+  }
+}

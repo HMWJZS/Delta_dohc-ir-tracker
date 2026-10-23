@@ -1,0 +1,47 @@
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_toolkit_dev19_4/site
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - imu-reset-dashboard.md
+  - infrared-online-methods.md
+  - infrared-pattern-assignment.md
+  - infrared-profiling.md
+  - infrared-runtime-timing.md
+  - infrared-tracker.md
+  - evidence/20260915_golden-1.0.8-r1-245.md
+  - evidence/20260915_ota-debian-legacy-dependencies.md
+  - evidence/20260915_release-1.0.8-ota-compat-candidate.md
+  - evidence/20260915_release-1.0.8-preflash-functional.md
+  - evidence/20260918_seven-stream-scheme-c.md
+  - evidence/20260920_all-camera-capture-pacing-device-160.md
+  - evidence/20260920_auto-stereo-extension-device-160.md
+  - evidence/20260920_seven-stream-scheme-c-device-160.md
+  - evidence/20260920_t265-decimation-full-pose-device-160.md
+  - evidence/20261014_183019_DOHC_Gen2_dev7_IMU分支_在线60s_测试报告.md
+  - evidence/20261015_095823_DOHC_Gen2_dev7_P03上电复测60s_测试报告.md
+  - evidence/20261015_171255_DOHC_Gen2_dev8_在线60s_测试报告.md
+  - evidence/20261015_184403_DOHC_Gen2_dev8_P03复测60s_测试报告.md
+  - evidence/20261019_143820_DOHC_dev8_五次60s分项计时_测试报告.md
+  - evidence/20261020_DOHC_Gen2_dev15_启动名单与命中早退_本地验证报告.md
+  - evidence/20261021_145358_DOHC_dev15_近中远三组_原速回放/20261021_145358_DOHC_dev15_近中远三组_原速回放_精度测试报告.md
+  - evidence/20261021_DOHC_dev16_分段计时125s/20261021_DOHC_dev16_在线125s_测试报告.md
+  - evidence/20261021_DOHC_dev16_即时准入与异步诊断/20261021_DOHC_dev16_后续板端测试_准入延迟拆分要求.md
+  - evidence/20261021_DOHC_dev16_即时准入与异步诊断/20261021_DOHC_dev16_本地代码验证报告.md
+  - evidence/20261021_DOHC_dev17_ROI与全局十帧平均/20261021_DOHC_dev17_ROI与全局报告_本地验证记录.md
+  - evidence/20261022_DOHC_dev18_G精修优化/20261022_DOHC_dev18_G精修_本地验证报告.md
+  - evidence/20261022_DOHC_dev18_G精修优化/20261022_DOHC_dev18_G精修_统计基线.md
+  - evidence/20261022_DOHC_dev18_在线125s/20261022_DOHC_dev18_在线125s_实测报告.md
+  - evidence/20261022_DOHC_dev18_快速移动65s_重启补采02/20261022_DOHC_dev18_快速移动65s_帧率报告.md
+  - evidence/20261022_DOHC_dev18_移动标靶65s/20261022_DOHC_dev18_移动标靶65s_帧率报告.md
+  - evidence/20261023_DOHC_dev19_2_独立工具包/20261023_DOHC_dev19_2_工具包_文档命名审计.md
+  - evidence/20261023_DOHC_dev19_4_有界运动覆盖ROI/20261023_DOHC_dev19_4_有界运动覆盖ROI_本地验证报告.md
+INFO    -  Doc file 'infrared-gen2.md' contains a link to 'evidence/20261023_DOHC_dev19_4_有界运动覆盖ROI/README.md' which is excluded from the built site.
+INFO    -  Doc file 'infrared-gen2.md' contains a link to 'evidence/20261022_DOHC_dev19_2_持续恢复/README.md' which is excluded from the built site.
+INFO    -  Doc file 'infrared-gen2.md' contains a link to 'evidence/20261022_DOHC_dev19_1_RPG预测ROI与快速关联/README.md' which is excluded from the built site.
+INFO    -  Doc file 'infrared-gen2.md' contains a link to 'evidence/20261022_DOHC_dev19_RPG运动预测ROI/README.md' which is excluded from the built site.
+INFO    -  Doc file 'infrared-gen2.md' contains a link to 'evidence/20261022_DOHC_dev18_在线125s/README.md' which is excluded from the built site.
+INFO    -  Doc file 'infrared-gen2.md' contains a link to 'evidence/20261021_DOHC_dev17_重启后在线125s/README.md' which is excluded from the built site.
+INFO    -  Doc file 'evidence/20261021_DOHC_dev16_分段计时125s/20261021_DOHC_dev16_在线125s_测试报告.md' contains a link to 'evidence/20261021_DOHC_dev15_全链路计时125s/README.md' which is excluded from the built site.
+INFO    -  Doc file 'evidence/20261021_DOHC_dev16_即时准入与异步诊断/20261021_DOHC_dev16_后续板端测试_准入延迟拆分要求.md' contains a link to 'evidence/20261021_DOHC_dev15_ROI与全局十帧平均/README.md' which is excluded from the built site.
+INFO    -  Doc file 'evidence/20261021_DOHC_dev16_即时准入与异步诊断/20261021_DOHC_dev16_本地代码验证报告.md' contains a link to 'evidence/20261021_DOHC_dev15_ROI与全局十帧平均/README.md' which is excluded from the built site.
+INFO    -  Doc file 'evidence/20261022_DOHC_dev18_G精修优化/20261022_DOHC_dev18_G精修_本地验证报告.md' contains a link to 'evidence/20261022_DOHC_dev18_G精修优化/README.md' which is excluded from the built site.
+INFO    -  Documentation built in 0.48 seconds

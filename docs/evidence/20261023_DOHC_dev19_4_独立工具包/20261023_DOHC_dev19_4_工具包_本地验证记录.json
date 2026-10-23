@@ -1,0 +1,183 @@
+{
+  "schema": "dohc.ir.toolkit-local-validation.v1",
+  "package_version": "0.0.2",
+  "algorithm_version": "2.0.0-dev.19.4",
+  "upstream_commit": "75b097ee1fcf2371f154d5f30f5609704462e6e4",
+  "related_tests": {
+    "passed": 365,
+    "skipped": 8,
+    "skip_reasons": [
+      "7 unavailable hardware tests",
+      "1 opt-in relocated-wheel test"
+    ]
+  },
+  "relocated_wheel": {
+    "passed": 1,
+    "execution": "host CPU oracle with internal factory patched; ARM64 dependencies not executed",
+    "checks": [
+      "package and algorithm version",
+      "subprocess",
+      "session metadata",
+      "snapshot",
+      "profile and result JSONL",
+      "HTML report",
+      "H264 encode/decode",
+      "core tamper rejection"
+    ]
+  },
+  "frozen_algorithm_files": 12,
+  "dependency_cache": "13 unchanged dependency wheels copied and verified locally",
+  "public_interfaces": "unchanged Python SDK/config/schema; search.roi_coverage from dev19.4 exposed",
+  "absolute_accuracy": null,
+  "hardware_acceptance": "pending",
+  "device": {
+    "cid": "未读取",
+    "ip": "未读取",
+    "version": "未读取",
+    "reason": "No device contacted during local-only toolkit upgrade"
+  },
+  "browser": {
+    "engine": "Chromium1228 via Playwright CLI",
+    "title": "dev.19.4 识别报告",
+    "console_errors": 0,
+    "console_warnings": 0,
+    "fixture": "single archived JPEG CPU packaging smoke; not tracking performance"
+  },
+  "equivalence": {
+    "mode": "CPU_oracle_unbudgeted_no_recording_inventory",
+    "hardware_test": false,
+    "absolute_accuracy": null,
+    "algorithm_version": "2.0.0-dev.19.4",
+    "upstream": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_gen2_dev19_4",
+    "package": "dist/20261023_DOHC_dev19_4_工具包预检/stage/dohc_ir_tracker",
+    "trials": [
+      {
+        "name": "20261022_DOHC_dev18_快速移动65s_重启补采02",
+        "frames": 1974,
+        "confirmed": 1850,
+        "expected": 1850,
+        "maxima": {
+          "points_px": 0.0,
+          "rvec_rad": 0.0,
+          "translation_m": 0.0,
+          "residual_px": 0.0
+        },
+        "differences": [],
+        "input_hashes": {
+          "video": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_gen2_dev18/dist/20261022_DOHC_dev18_快速移动65s_重启补采02/recordings/20261022_171856_762629_a4004d9a_116050354441/cam0/cam0-00000.mp4",
+          "video_sha256": "aa21b750f4101e64b4b2768cfc5df77a9995bd8f38ff0b2d9819f82ee1b6e4ca",
+          "timestamps_sha256": "df89a221de4eb10ca14d8bf358169be398be2c0dc67c7d665ff37ff2068d17c4",
+          "calibration_sha256": "6e8034ca0cbc8897312dcbff5fc67a083cbee2f883388614652d13fcb65ff380",
+          "patterns_sha256": "6d910749fbe909dd7c22f5186e4ed64bb2625a28cae19ea5aa2fc81af14eecaa",
+          "manifest": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_gen2_dev18/dist/20261022_DOHC_dev18_快速移动65s_重启补采02/source-manifests.json",
+          "manifest_sha256": "13b936f0bb05802713a67eab0c838ec34e2e2ed5655ffa2019b35c77d89bd214",
+          "verified_original_hashes": true,
+          "fixed_admission": null
+        },
+        "passed": true
+      },
+      {
+        "name": "20261022_DOHC_dev18_在线125s",
+        "frames": 3759,
+        "confirmed": 3758,
+        "expected": 3758,
+        "maxima": {
+          "points_px": 0.0,
+          "rvec_rad": 0.0,
+          "translation_m": 0.0,
+          "residual_px": 0.0
+        },
+        "differences": [],
+        "input_hashes": {
+          "video": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_gen2_dev18/dist/20261022_DOHC_dev18_在线125s/recordings/20261022_162358_812692_b6b8e9f5_480676199807/cam0/cam0-00000.mp4",
+          "video_sha256": "a7c07ae0bf638cb8e4afd4a8d3fe3c6e847882d585450250bb40cbaf35f02d0c",
+          "timestamps_sha256": "bba5b69f7765198828618254e4c3b8ed29e02211ded059df44d5ab0923a02ec0",
+          "calibration_sha256": "6e8034ca0cbc8897312dcbff5fc67a083cbee2f883388614652d13fcb65ff380",
+          "patterns_sha256": "6d910749fbe909dd7c22f5186e4ed64bb2625a28cae19ea5aa2fc81af14eecaa",
+          "manifest": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_gen2_dev18/dist/20261022_DOHC_dev18_在线125s/source-manifests.json",
+          "manifest_sha256": "e12ff0441abeab3ff2319c6a8f170660198e7a86231097cee7e61c3a131c9f83",
+          "verified_original_hashes": true,
+          "fixed_admission": null
+        },
+        "passed": true
+      },
+      {
+        "name": "20261022_DOHC_dev18_移动标靶65s",
+        "frames": 1973,
+        "confirmed": 1947,
+        "expected": 1947,
+        "maxima": {
+          "points_px": 0.0,
+          "rvec_rad": 0.0,
+          "translation_m": 0.0,
+          "residual_px": 0.0
+        },
+        "differences": [],
+        "input_hashes": {
+          "video": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_gen2_dev18/dist/20261022_DOHC_dev18_移动标靶65s/recordings/20261022_164741_416788_36bf2bdf_124153443162/cam0/cam0-00000.mp4",
+          "video_sha256": "75634ee6abdc902a7f549c810f82ae938d67c35f18151540892773ab9ae00e11",
+          "timestamps_sha256": "b275fba5e5701186f820e387459c2b395ecdaea0c324c79e266b62ba0be75f96",
+          "calibration_sha256": "6e8034ca0cbc8897312dcbff5fc67a083cbee2f883388614652d13fcb65ff380",
+          "patterns_sha256": "6d910749fbe909dd7c22f5186e4ed64bb2625a28cae19ea5aa2fc81af14eecaa",
+          "manifest": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_gen2_dev18/dist/20261022_DOHC_dev18_移动标靶65s/source-manifests.json",
+          "manifest_sha256": "46f9003fb57ee42f6a996f15daa2ae34f5763b77430e9949458dc68c192424dc",
+          "verified_original_hashes": true,
+          "fixed_admission": null
+        },
+        "passed": true
+      },
+      {
+        "name": "attempt01",
+        "frames": 1151,
+        "confirmed": 1135,
+        "expected": 1135,
+        "maxima": {
+          "points_px": 0.0,
+          "rvec_rad": 0.0,
+          "translation_m": 0.0,
+          "residual_px": 0.0
+        },
+        "differences": [],
+        "input_hashes": {
+          "video": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_gen2_dev19_2/dist/20261023_DOHC_dev19_2_中断采集_标注视频/attempt01/recordings/20261023_135727_449972_1de236ce_465163038033/cam0/cam0-00000.mp4",
+          "video_sha256": "7d5c636d961610f3033d09b01cdc992d2fa08c982a3aebfacbcd8abab3be4c55",
+          "timestamps_sha256": "77d8103184628749f11db74ac213808b012d50bc1a6399a0ec6293ec1cf8d8d6",
+          "calibration_sha256": "6e8034ca0cbc8897312dcbff5fc67a083cbee2f883388614652d13fcb65ff380",
+          "patterns_sha256": "6d910749fbe909dd7c22f5186e4ed64bb2625a28cae19ea5aa2fc81af14eecaa",
+          "manifest": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_gen2_dev19_2/dist/20261023_DOHC_dev19_2_中断采集_标注视频/attempt01/source-manifests.json",
+          "manifest_sha256": "dfcf964e0e6a7003becd29bbe4a07e7db1f8e60827c007b54dcc2b6c1c82cf1f",
+          "verified_original_hashes": true,
+          "fixed_admission": null
+        },
+        "passed": true
+      },
+      {
+        "name": "attempt03",
+        "frames": 1583,
+        "confirmed": 1490,
+        "expected": 1490,
+        "maxima": {
+          "points_px": 0.0,
+          "rvec_rad": 0.0,
+          "translation_m": 0.0,
+          "residual_px": 0.0
+        },
+        "differences": [],
+        "input_hashes": {
+          "video": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_gen2_dev19_2/dist/20261023_DOHC_dev19_2_中断采集_标注视频/attempt03/recordings/20261023_140352_865262_3f959312_330919750684/cam0/cam0-00000.mp4",
+          "video_sha256": "1ace489c42a422d9215a0bab3866e2bbb49a8ed86e62014ff5cc2307a975443e",
+          "timestamps_sha256": "a5adaddc3952ce9ff56689a1317423d9f13f46c6f480cb0c04a815944afa0a47",
+          "calibration_sha256": "6e8034ca0cbc8897312dcbff5fc67a083cbee2f883388614652d13fcb65ff380",
+          "patterns_sha256": "6d910749fbe909dd7c22f5186e4ed64bb2625a28cae19ea5aa2fc81af14eecaa",
+          "manifest": "/home/descfly/apriltag_head_hand_integration/DOHC_workspace_infrared_gen2_dev19_2/dist/20261023_DOHC_dev19_2_中断采集_标注视频/attempt03/source-manifests.json",
+          "manifest_sha256": "fa627a3a2d7439ea84a0623a84e53f56da34793d6cf46dad895034f169c0846e",
+          "verified_original_hashes": true,
+          "fixed_admission": null
+        },
+        "passed": true
+      }
+    ],
+    "wall_seconds": 596.2350578620099,
+    "passed": true
+  }
+}

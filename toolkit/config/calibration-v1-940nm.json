@@ -1,0 +1,383 @@
+{
+  "camera_model": "opencv_fisheye",
+  "image_width": 3840,
+  "image_height": 2160,
+  "pattern_size": [
+    11,
+    8
+  ],
+  "square_size_m": 0.015,
+  "image_count": 40,
+  "valid_image_count": 40,
+  "rms_error_px": 0.29472142480195757,
+  "K": [
+    [
+      594.3791248646037,
+      0.0,
+      1938.8013534740894
+    ],
+    [
+      0.0,
+      594.4568173063034,
+      989.2214959442605
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "D": [
+    0.0008694445943711479,
+    -0.007472360671424586,
+    0.0032542797718030578,
+    -0.0007031376464564239
+  ],
+  "focus_absolute": 623,
+  "status": "active_in_led_gui",
+  "source_sessions": [
+    "20260916_105251_decxin_original_4k_vXwP9N",
+    "20260916_134547_decxin_original_4k_pXAnFM"
+  ],
+  "excluded_original": [
+    "calib_0020.jpg",
+    "calib_0021.jpg",
+    "calib_0022.jpg",
+    "calib_0023.jpg",
+    "calib_0040.jpg"
+  ],
+  "opencv_version": "5.0.0",
+  "initialization": "previous 35-image candidate",
+  "per_image": [
+    {
+      "filename": "calib_0001.jpg",
+      "index": 0,
+      "mean_error_px": 0.16624304318819483,
+      "rms_error_px": 0.1949837515822945,
+      "max_error_px": 0.5814871383255535,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0002.jpg",
+      "index": 1,
+      "mean_error_px": 0.290969086612231,
+      "rms_error_px": 0.3527808710623305,
+      "max_error_px": 1.173282687617487,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0003.jpg",
+      "index": 2,
+      "mean_error_px": 0.1186565372257884,
+      "rms_error_px": 0.13676351009173668,
+      "max_error_px": 0.30775130321860705,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0004.jpg",
+      "index": 3,
+      "mean_error_px": 0.21998794759549634,
+      "rms_error_px": 0.26305565241838,
+      "max_error_px": 0.6052695089675705,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0005.jpg",
+      "index": 4,
+      "mean_error_px": 0.18333167707730047,
+      "rms_error_px": 0.22736441053649795,
+      "max_error_px": 0.8399406445324029,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0006.jpg",
+      "index": 5,
+      "mean_error_px": 0.16753865015995792,
+      "rms_error_px": 0.20560864995148523,
+      "max_error_px": 0.6328859059839473,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0007.jpg",
+      "index": 6,
+      "mean_error_px": 0.1654857812618593,
+      "rms_error_px": 0.18918953980892342,
+      "max_error_px": 0.437356724114295,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0008.jpg",
+      "index": 7,
+      "mean_error_px": 0.16370324321164667,
+      "rms_error_px": 0.18678599624222803,
+      "max_error_px": 0.48050398501845004,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0009.jpg",
+      "index": 8,
+      "mean_error_px": 0.2369667863315284,
+      "rms_error_px": 0.28201423868860853,
+      "max_error_px": 0.7740041595195283,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0010.jpg",
+      "index": 9,
+      "mean_error_px": 0.2168417250048803,
+      "rms_error_px": 0.26308883526780197,
+      "max_error_px": 0.9036078455745825,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0011.jpg",
+      "index": 10,
+      "mean_error_px": 0.24895775583899998,
+      "rms_error_px": 0.2836964226305018,
+      "max_error_px": 0.7890763595016533,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0012.jpg",
+      "index": 11,
+      "mean_error_px": 0.15378843475986825,
+      "rms_error_px": 0.18854379123220955,
+      "max_error_px": 0.6320201880395829,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0013.jpg",
+      "index": 12,
+      "mean_error_px": 0.25436859974343556,
+      "rms_error_px": 0.30122852234512987,
+      "max_error_px": 0.8377369194988808,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0014.jpg",
+      "index": 13,
+      "mean_error_px": 0.21849981575387273,
+      "rms_error_px": 0.24425874649211077,
+      "max_error_px": 0.5039398915651025,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0015.jpg",
+      "index": 14,
+      "mean_error_px": 0.19966871963181304,
+      "rms_error_px": 0.23681737378646486,
+      "max_error_px": 0.7156055120183409,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0016.jpg",
+      "index": 15,
+      "mean_error_px": 0.2472749366812657,
+      "rms_error_px": 0.30784645511507686,
+      "max_error_px": 1.0273038394360376,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0017.jpg",
+      "index": 16,
+      "mean_error_px": 0.23096756103183858,
+      "rms_error_px": 0.27783746452109975,
+      "max_error_px": 0.9260829757533433,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0018.jpg",
+      "index": 17,
+      "mean_error_px": 0.30678143478658143,
+      "rms_error_px": 0.3784727311480776,
+      "max_error_px": 1.3157307476529694,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0019.jpg",
+      "index": 18,
+      "mean_error_px": 0.2687113591223731,
+      "rms_error_px": 0.31927632236860487,
+      "max_error_px": 1.0516590916361102,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0024.jpg",
+      "index": 19,
+      "mean_error_px": 0.6307587986741499,
+      "rms_error_px": 0.7434951724606874,
+      "max_error_px": 2.255132239538055,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0025.jpg",
+      "index": 20,
+      "mean_error_px": 0.08668006773105996,
+      "rms_error_px": 0.10714172636332076,
+      "max_error_px": 0.3260027407758272,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0026.jpg",
+      "index": 21,
+      "mean_error_px": 0.23523635771993687,
+      "rms_error_px": 0.2672796873999155,
+      "max_error_px": 0.6639968113520298,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0027.jpg",
+      "index": 22,
+      "mean_error_px": 0.2724049471913419,
+      "rms_error_px": 0.32746149392583496,
+      "max_error_px": 0.8690772697688149,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0028.jpg",
+      "index": 23,
+      "mean_error_px": 0.2788076372188495,
+      "rms_error_px": 0.3268830165187579,
+      "max_error_px": 1.0157922642699193,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0029.jpg",
+      "index": 24,
+      "mean_error_px": 0.3118925903768051,
+      "rms_error_px": 0.4002426224097916,
+      "max_error_px": 1.774365595589439,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0030.jpg",
+      "index": 25,
+      "mean_error_px": 0.28710443515355766,
+      "rms_error_px": 0.3557838664396785,
+      "max_error_px": 1.2081853662926954,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0031.jpg",
+      "index": 26,
+      "mean_error_px": 0.09965196063025132,
+      "rms_error_px": 0.11294451478401865,
+      "max_error_px": 0.23558311366581752,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0032.jpg",
+      "index": 27,
+      "mean_error_px": 0.12054911167911551,
+      "rms_error_px": 0.13540450749232708,
+      "max_error_px": 0.34823610008703526,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0033.jpg",
+      "index": 28,
+      "mean_error_px": 0.17475384129056334,
+      "rms_error_px": 0.20875844807748548,
+      "max_error_px": 0.6244629528625404,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0034.jpg",
+      "index": 29,
+      "mean_error_px": 0.226773255212938,
+      "rms_error_px": 0.27155067570035085,
+      "max_error_px": 0.7495078541439715,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0035.jpg",
+      "index": 30,
+      "mean_error_px": 0.2026724825063046,
+      "rms_error_px": 0.22592206724240313,
+      "max_error_px": 0.5643469783617318,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0036.jpg",
+      "index": 31,
+      "mean_error_px": 0.14091846977482786,
+      "rms_error_px": 0.16017908183749258,
+      "max_error_px": 0.36379873376916894,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0037.jpg",
+      "index": 32,
+      "mean_error_px": 0.16893923150892487,
+      "rms_error_px": 0.19333166677355396,
+      "max_error_px": 0.44548843592549037,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0038.jpg",
+      "index": 33,
+      "mean_error_px": 0.2698529135144215,
+      "rms_error_px": 0.32451626882159545,
+      "max_error_px": 0.9480571486532762,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0039.jpg",
+      "index": 34,
+      "mean_error_px": 0.20585055339279504,
+      "rms_error_px": 0.2421122498675776,
+      "max_error_px": 0.7591734918128693,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0041.jpg",
+      "index": 35,
+      "mean_error_px": 0.2532525246817718,
+      "rms_error_px": 0.2954227775949857,
+      "max_error_px": 0.7211579338800791,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0042.jpg",
+      "index": 36,
+      "mean_error_px": 0.22446588447617447,
+      "rms_error_px": 0.2641058067386274,
+      "max_error_px": 0.5986102942548316,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0043.jpg",
+      "index": 37,
+      "mean_error_px": 0.29544962995644747,
+      "rms_error_px": 0.3309931408943215,
+      "max_error_px": 0.6740521609698614,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0044.jpg",
+      "index": 38,
+      "mean_error_px": 0.47268880152644516,
+      "rms_error_px": 0.5530868754021692,
+      "max_error_px": 1.385214096764833,
+      "overall_rms_error_px": 0.29472142480195757
+    },
+    {
+      "filename": "calib_0045.jpg",
+      "index": 39,
+      "mean_error_px": 0.1647222257408791,
+      "rms_error_px": 0.18849525562453198,
+      "max_error_px": 0.5225227834085655,
+      "overall_rms_error_px": 0.29472142480195757
+    }
+  ],
+  "calibration_id": "decxin_v1_fisheye_940nm_4k_20260916",
+  "display_name": "DECXIN v1 鱼眼镜头 · 940 nm 红外滤光片",
+  "camera_name": "DECXIN CAMERA",
+  "lens_version": "v1",
+  "filter_wavelength_nm": 940,
+  "optical_configuration_source": "user_confirmed_2026-09-16",
+  "calibration_date": "2026-09-16",
+  "validation_status": "reprojection_validated_not_full_pose_acceptance",
+  "source_intrinsics": "calibration/20260916_134547_decxin_original_4k_pXAnFM/intrinsics_candidate_combined40/fisheye_intrinsics.json",
+  "source_sha256": "602aefdd9b8159c98dec4235690caf86250113f866b6553ba62f376fb860882b"
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "dohc.ir.toolkit-delivery.v1",
+  "package_version": "0.0.2",
+  "algorithm_version": "2.0.0-dev.19.4",
+  "source_commit": "aa28bd5773978afd9b804fad5b39b2440c170cd3",
+  "upstream_commit": "75b097ee1fcf2371f154d5f30f5609704462e6e4",
+  "source_dirty": false,
+  "branch": "feat/infrared-dev19-4-toolkit",
+  "archive": "dist/20261023_DOHC_dev19_4_工具包_0.0.2.tar.gz",
+  "archive_bytes": 105807424,
+  "archive_sha256": "2fc3fa15b7d0015e627282ac6842bddc082d822f06bdf7caf620d6c1a943e54e",
+  "wheel_sha256": "50830d5909e5295bce234ea133c96b129a697adbe569218bfb7660b568d5d8d1",
+  "bundle_verified_files": 89,
+  "wheel_RECORD_entries": 45,
+  "dependency_wheels": 13,
+  "preview_runtime_identical": true,
+  "old_bundle_unchanged": true,
+  "source_rebuild_wheel_identical": true,
+  "final_relocated_install_test": "1 passed; host CPU oracle only",
+  "device_contacted": false,
+  "hardware_validation": "pending",
+  "upload": false
+}

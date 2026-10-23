@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.16)
+project(dohc_ir_assignment LANGUAGES CXX)
+add_library(dohc_ir_assignment SHARED assignment.cpp)
+target_compile_features(dohc_ir_assignment PRIVATE cxx_std_17)
+target_compile_options(dohc_ir_assignment PRIVATE
+    -Wall -Wextra -Werror -fno-fast-math -ffp-contract=off)
+install(TARGETS dohc_ir_assignment LIBRARY DESTINATION native/infrared_assignment)
+file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/build-info.txt"
+    "compiler=${CMAKE_CXX_COMPILER_ID}-${CMAKE_CXX_COMPILER_VERSION},processor=${CMAKE_SYSTEM_PROCESSOR},flags=-fno-fast-math -ffp-contract=off\n")
+include(CTest)
+if(BUILD_TESTING)
+    add_executable(ir_assignment_selftest selftest.cpp)
+    target_compile_options(ir_assignment_selftest PRIVATE -UNDEBUG)
+    target_link_libraries(ir_assignment_selftest PRIVATE dohc_ir_assignment)
+    add_test(NAME ir_assignment_boundary COMMAND ir_assignment_selftest)
+endif()

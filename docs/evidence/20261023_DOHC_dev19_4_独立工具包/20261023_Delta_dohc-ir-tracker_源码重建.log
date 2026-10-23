@@ -1,0 +1,9 @@
+{
+  "bundle": "/home/descfly/Delta_dohc-ir-tracker/dist/20261023_Delta_dohc-ir-tracker_\u4ed3\u5e93\u91cd\u5efa",
+  "wheel": "/home/descfly/Delta_dohc-ir-tracker/dist/20261023_Delta_dohc-ir-tracker_\u4ed3\u5e93\u91cd\u5efa/wheelhouse/dohc_ir_tracker-0.0.2-py3-none-linux_aarch64.whl",
+  "archive": "/home/descfly/Delta_dohc-ir-tracker/dist/20261023_Delta_dohc-ir-tracker_\u4ed3\u5e93\u91cd\u5efa.tar.gz",
+  "sha256": "92c8fbe2a2bf2b002f818165a23b0593f1405fb6837bd7d2f51f8e3b638bc765",
+  "source_dirty": false,
+  "offline_dependencies": "complete",
+  "hardware_validation": "pending"
+}

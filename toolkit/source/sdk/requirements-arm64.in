@@ -1,0 +1,12 @@
+numpy==1.23.5
+scipy==1.10.1
+opencv-python-headless==4.13.0.92
+pytools==2023.1
+appdirs==1.4.4
+decorator==5.1.1
+six==1.16.0
+setuptools==68.2.2
+pip==25.0.1
+platformdirs==3.11.0
+typing-extensions==4.13.2
+imageio-ffmpeg==0.5.1

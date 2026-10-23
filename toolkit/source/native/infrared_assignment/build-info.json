@@ -1,0 +1,13 @@
+{
+  "schema": "dohc.ir.assignment-build.v1",
+  "abi": 1,
+  "library_sha256": "1a81d27e68583e41a0191e61f539e574333f9c608db37c0b611de6ef196c66f5",
+  "source_sha256": {
+    "CMakeLists.txt": "ead789b1202caa5e3685dfafd46fe1dd7ec1065a3d23f682056d5bff063b3317",
+    "assignment.cpp": "6bfcc5e3ab25ffc45ac14ff352a311117431c612e7a6d61bdcb8f1138498024a",
+    "assignment.h": "58f8619168190892f61b76b5daf0979aac49c3ad1607e184ee43a654b65eef4c",
+    "selftest.cpp": "a61b0319bae11fa358b1ba7a244b03e8b391053f0759761c5afa3c5629c643ac"
+  },
+  "build_info": "compiler=GNU-9.4.0,processor=aarch64,flags=-fno-fast-math -ffp-contract=off",
+  "toolchain_sha256": null
+}
